@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Users farebase</string>
+    <string name="add_new_user">Add new user</string>
+    <string name="name_label">Имя:</string>
+    <string name="lastname_label">Фамилия:</string>
+    <string name="age_label">Возраст:</string>
+    <string name="sex_label">Пол:</string>
+    <string name="name">Name</string>
+    <string name="lastname">Lastname</string>
+    <string name="age">age</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="save">Save</string>
+</resources>

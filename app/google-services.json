@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "438202747339",
+    "project_id": "fir-users-4ef7b",
+    "storage_bucket": "fir-users-4ef7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438202747339:android:0893e13ead6f13820b8e4e",
+        "android_client_info": {
+          "package_name": "raui.imashev.usersfarebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438202747339-js8h7jnm1rokhgl80dq9a4rs36dibpmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt69eUNbRciLxExQDCn1ABxOBY6jOn-TM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438202747339-js8h7jnm1rokhgl80dq9a4rs36dibpmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:layout_margin="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/textViewNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_label"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:padding="8dp"/>
+        <TextView
+            android:id="@+id/textViewLastNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lastname_label"
+            app:layout_constraintTop_toBottomOf="@+id/textViewNameLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewAgeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/age_label"
+            app:layout_constraintTop_toBottomOf="@+id/textViewLastNameLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            android:padding="8dp"/>
+        <TextView
+            android:id="@+id/textViewSexLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sex_label"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAgeLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewLastNameLabel"
+            android:padding="8dp"/>
+        <TextView
+            android:id="@+id/textViewLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textViewName"
+            app:layout_constraintStart_toEndOf="@+id/textViewLastNameLabel"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textViewLastName"
+            app:layout_constraintStart_toEndOf="@+id/textViewLastNameLabel"
+            android:padding="8dp"/>
+        <TextView
+            android:id="@+id/textViewSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAge"
+            app:layout_constraintStart_toEndOf="@+id/textViewLastNameLabel"
+            android:padding="8dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
